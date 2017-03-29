@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.spectorh.bloodbank.home"
+    android:background="@drawable/bck">
+
+
+    <Button
+        android:text="View Inventory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewall"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="viewall"
+        android:background="@drawable/button_trans" />
+
+    <Button
+        android:text="withdraw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/withdraw"
+        android:onClick="withdraw"
+        android:background="@drawable/button_trans"
+        android:layout_below="@+id/viewall"
+        android:layout_toRightOf="@+id/viewall"
+        android:layout_toEndOf="@+id/viewall"
+        android:layout_marginTop="59dp" />
+
+    <Button
+        android:text="donate"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/donate"
+        android:onClick="donate"
+        android:background="@drawable/button_trans"
+        android:layout_alignBaseline="@+id/withdraw"
+        android:layout_alignBottom="@+id/withdraw"
+        android:layout_toLeftOf="@+id/viewall"
+        android:layout_toStartOf="@+id/viewall" />
+</RelativeLayout>

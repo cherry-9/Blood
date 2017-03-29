@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BloodBank</string>
+    <string name="check">I am not taking any medication or suffering from a medical condion</string>
+    <string name="please_fill_the_form">PLEASE FILL THE FORM</string>
+    <string name="name">Name</string>
+    <string name="_16_digit_uid">16 DIGIT UID</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="postal_address">POSTAL ADDRESS</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="tc">By Submitting the form You imply that you agree with the terms and comditions and you are not suffering from any medical condition and are not taking any treatment</string>
+    <string name="submit">SUBMIT</string>
+    <string name="pints">Pints</string>
+    <string name="tc2">By Submitting the form you imply that you agree with the terms and conditions</string>
+    <string name="welcome">Welcome</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="tc3">The members already registered with us can withdraw a maximum of 5 pints of blood while non-registered members can withdraw atmost 3 pints of blood.</string>
+    <string name="contb4">Please fill the following details before continuing</string>
+    <string name="cnt">Continue</string>
+    <string-array name="blood_group">
+        <item>A</item>
+        <item>B</item>
+        <item>O</item>
+        <item>AB</item>
+    </string-array>
+</resources>
